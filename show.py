@@ -18,7 +18,7 @@ def generate_response(input_text, wenxin_api_key, wenxin_app_secret):
         verbose=True,
     )
     if input_text is None:
-        return -1
+        return "搞快问我！！！"
     else:
         return st.info(llm(input_text))
 
