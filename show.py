@@ -17,7 +17,10 @@ def generate_response(input_text, wenxin_api_key, wenxin_app_secret):
         baidu_secret_key=wenxin_app_secret,
         verbose=True,
     )
-    return st.info(llm(input_text))
+    if input_text is None:
+        return -1
+    else:
+        return st.info(llm(input_text))
 
 
 def get_vectordb():
