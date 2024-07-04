@@ -6,8 +6,8 @@ langchain==0.2.6
 langchain-community==0.2.6
 langchain-core==0.2.11
 langchain-openai==0.1.1
-langchain-wenxin=0.10.2
-langchain-text-splitters=0.2.2
+langchain-wenxin==0.10.2
+langchain-text-splitters==0.2.2
 nltk==3.8.1
 openai==1.13.3
 pip==23.3.1
