@@ -88,7 +88,7 @@ def get_qa_chain(question:str, wenxin_api_key:str, wenxin_app_secret:str):
 
 def main():
     st.title('🐽 Kira大模型应用开发')
-    wenxin_api_key = st.sidebar.text_input("Api Key", type="text")
+    wenxin_api_key = st.sidebar.text_input("Api Key", type="default")
     wenxin_app_secret = st.sidebar.text_input("App Secret", type="password")
 
     selected_method = st.radio(
