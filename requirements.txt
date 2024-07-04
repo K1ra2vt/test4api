@@ -1,13 +1,13 @@
-fastapi==0.110.0
-gradio==4.20.0
+fastapi
+gradio
 huggingface_hub==0.21.3
 ipython==8.22.2
-langchain==0.2.6
-langchain-community==0.2.6
-langchain-core==0.2.11
+langchain
+langchain-community
+langchain-core
 
-langchain-wenxin==0.10.2
-langchain-text-splitters==0.2.2
+langchain-wenxin
+langchain-text-splitters
 nltk==3.8.1
 openai==1.13.3
 pip==23.3.1
